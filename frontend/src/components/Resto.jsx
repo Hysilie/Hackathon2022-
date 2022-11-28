@@ -1,4 +1,4 @@
-/* eslint-disable */
+/* /* eslint-disable 
 import React, { useState, useEffect } from "react";
 import RestoDisplay from "./RestoDisplay";
 
@@ -11,7 +11,7 @@ function Resto() {
         console.log(restos);
         setRestos(result);
       })
-      .catch((err) => console.error(err));
+      .catch((err) =>  console.error(err));
   };
 
   useEffect(() => {
@@ -35,7 +35,7 @@ function Resto() {
       </h1>
       {/*
         Display the API call of restos
-      */}
+     
       {restos?.map((resto) => {
         return <RestoDisplay key={resto.id} {...resto} />;
       })}
@@ -44,3 +44,4 @@ function Resto() {
 }
 
 export default Resto;
+ */

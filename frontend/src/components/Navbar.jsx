@@ -82,35 +82,25 @@ function Navbar({ searchValue, setSearchValue, getResult }) {
             {/* border-box bug */}
             <ul className="items-center p-3 justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="text-gray-600 hover:text-blue-600 text-right pr-3">
-                <Link to="/">
-                  Home
-                </Link>
+                <Link to="/">Home</Link>
               </li>
 
               <li className="text-gray-600 hover:text-blue-600 text-right pr-3">
-                <Link to="/favorites">
-                  Favorites
-                </Link>
+                <Link to="/favorites">Favorites</Link>
               </li>
               <li className="text-gray-600 hover:text-blue-600 text-right pr-3">
-                <Link to="/randomizer">
-                  Randomizer
-                </Link>
+                <Link to="/randomizer">Randomizer</Link>
               </li>
               <li className="text-gray-600 hover:text-blue-600 text-right pr-3">
-                <Link to="/myingredient">
-                  Last Ingredient
-                </Link>
+                <Link to="/myingredient">Last Ingredient</Link>
               </li>
-              <li className="text-gray-600 hover:text-blue-600 text-right pr-3">
+              {/* <li className="text-gray-600 hover:text-blue-600 text-right pr-3">
                 <Link  to="/restos">
                   Restos of all countries
                 </Link>
-              </li>
+              </li> */}
               <li className="text-gray-600 hover:text-blue-600 text-right pr-3">
-                <Link to="/about">
-                  About Us
-                </Link>
+                <Link to="/about">About Us</Link>
               </li>
               <li className="flex justify-center">
                 {/*  another search bar */}{" "}

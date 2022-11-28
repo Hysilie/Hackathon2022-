@@ -23,8 +23,11 @@ function About() {
       <div className="description bg-indigo-900 flex flex-column justify-center">
         <p className="paragraphes  rounded-md text-center mt-9 mb-5 w-8/12">
           "Les petits nems" is a french team of coder who like not to sleep and
-          eat pizza ! We realise this website in 24 hours only. <br />
-          Tech Stack : React, Tailwind, Github, Figma
+          eat pizza ! <br />
+          We realise this website in 24 hours only ! <br />
+          <br />
+          🏆 We are the winner of Wild Code School of Lyon! Tech Stack : React,
+          Tailwind, Github, Figma
         </p>
       </div>
       <div className="images  md:gap-6 flex-row md:flex-row pt-5 m-3 md:m-10">

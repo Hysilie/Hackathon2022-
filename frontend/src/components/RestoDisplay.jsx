@@ -1,4 +1,4 @@
-/* eslint-disable */
+/* /* eslint-disable 
 import React from "react";
 import "../style/RestoDisplay.css";
 
@@ -21,3 +21,4 @@ function RestoDisplay({ country, name, adress, number, pictures }) {
 }
 
 export default RestoDisplay;
+ */

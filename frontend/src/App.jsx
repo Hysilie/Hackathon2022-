@@ -16,8 +16,8 @@ import Loader from "./components/Loader";
 
 import MyIngredient from "./pages/MyIngredient";
 import "./fonts/Cafe Francoise_D.otf";
-import Resto from "./components/Resto";
-
+/* import Resto from "./components/Resto";
+ */
 function App() {
   const [loader, setLoader] = useState(true);
 
@@ -78,7 +78,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/favorites" element={<Favorites />} />
         <Route path="/randomizer" element={<Randomizer />} />
-        <Route path="/restos" element={<Resto />} />
+        {/*         <Route path="/restos" element={<Resto />} />
+         */}{" "}
         <Route path="/myingredient" element={<MyIngredient />} />
         <Route
           path="/search/:searchValue"
