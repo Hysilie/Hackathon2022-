@@ -7,12 +7,12 @@ function Results({ search, countries }) {
     <div className="flex justify-center align-center">
       <div className="flex-col ">
         <h1 className="text-center text-3xl mt-5 py-3  mb-5 text-randomize">
-          Layover in {countries} food !{" "}
+          {countries.charAt(0).toUpperCase() + countries.substring(1)} food !
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="25"
             height="25"
-            fill="#A6122D"
+            fill="#C40000"
             className="bi bi-airplane-fill inline-block ml-2 transform rotate-45"
             viewBox="0 0 16 16"
           >
